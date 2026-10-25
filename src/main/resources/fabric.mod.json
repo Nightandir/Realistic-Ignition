@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "realistic_ignition",
+  "version": "${version}",
+  "name": "Realistic Ignition",
+  "description": "Adds realistic ignition mechanics to vanilla furnaces, blast furnaces and smokers.",
+  "authors": [
+    "Nightandir"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.nightandir.realisticignition.RealisticIgnition"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
